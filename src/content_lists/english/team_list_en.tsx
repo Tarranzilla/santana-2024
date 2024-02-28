@@ -2,27 +2,27 @@ import { TeamMember } from "@/types/TeamMember";
 
 const teamList_EN: TeamMember[] = [
     {
-        picture: "/team_imgs/advogada_001.png",
-        name: "Telma Regina Machado",
+        picture: "/team_imgs/foto_elza_001.png",
+        name: "Elza Santana Lima",
         role: "Lawyer and Manager",
-        OAB_number: "OAB/PR | 60235",
-        OAB_Link: "https://www.oabpr.org.br/servicos-consulta-de-advogados/consulta-de-advogado/?oabn=60235&tpinsc=A",
-        cellphone: "(41) 991 191 904",
-        telephone: "(41) 3668-8000",
-        email: "telma@stresseremachado.adv.br",
+        OAB_number: "OAB/PR | 16862",
+        OAB_Link: "https://www.oabpr.org.br/servicos-consulta-de-advogados/consulta-de-advogado/?oabn=16862&tpinsc=A",
+        cellphone: "(41) 984 159 010",
+        telephone: "(41) 3077-0340",
+        email: "elza_ld@hotmail.com",
 
         description: [
-            "Post-graduated in Tax Law and Tax Procedure by UNICURITIBA in 2013. Works in administrative and judicial tax advocacy. Member of the Taxpayers and Fiscal Resources Council/PR, representing FIEP/PR.",
-            "Currently, works as an attorney at the Taxpayers and Fiscal Resources Council (CCRF), acting in oral advocacy and defense of Taxpayers in the state of Paraná.",
-            "Master's student in Business Law and Citizenship at UNIVERSIDADE UNICURITIBA. Has her own office in Curitiba/PR, working in the areas of Tax, Real Estate, Family, Consumer, Labor, Social Security, and Banking Law.",
+            "With vast experience and specialization in the field of Banking Consumer Law, Elza Santana Lima is a renowned professional in the legal scene. Graduated in Law from Universidade Paranaense and Post-Graduated in Labor Law from Pontifical Catholic University of Paraná in 2005, she has a solid and enriching academic background.",
+            'Author of respected works, such as "Considerações do Art. 62 da CLT – Trabalho Externo de Motoristas e Altos Empregados", published in "Estado e Atividade Econômica – O Direito Laboral em Perspectiva" (Juruá, 2007), Elza contributes significantly to the field of Law with her insightful research and writing.',
+            "In addition to her dedication to Law, Elza is also an active figure in philanthropic activities, engaging with organizations like Recriar Família e Adoção, Ciranda da Esperança, and Rotary International. Her passion for helping others extends beyond the courtroom walls, showcasing her commitment to community well-being.",
         ],
 
         academicBackground: [
             {
                 title: "Academic Background",
                 paragraphs: [
-                    "Specialization in Tax Law and Tax Procedure (2012-2013) - Curitiba University Center. Title: Normative Simultaneity in Tax Exemption. Advisor: Mauricio Dalri Timm do Valle",
-                    "Bachelor's degree in Law (2006-2011) - Tuiuti University of Paraná. Title: Toll - Legal, Political, and Social Aspects. Advisor: Pericles Coelho",
+                    "Post-Graduation in Labor Law (2004-2005) - Pontifical Catholic University of Paraná",
+                    "Graduation in Law (1984-1988) - Universidade Paranaense",
                 ],
             },
         ],
@@ -31,52 +31,8 @@ const teamList_EN: TeamMember[] = [
             {
                 title: "Academic Production",
                 paragraphs: [
-                    "MACHADO, T. R. UNION DUES AND ITS LEGAL NATURE. 2018. (Presentation of Work/Congress)",
-                    "MACHADO, T. R. Normative Simultaneity in Tax Exemption. 2016. (Presentation of Work/Congress)",
+                    "DEMBISKI, Elza Sant´Ana de Lima., VILLATORE, Marco Antônio., RASSON, Roland. 'Considerações do Art. 62 da CLT – Trabalho Externo de Motoristas e Altos Empregados.' In: Estado e Atividade Econômica – O Direito Laboral em Perspectiva. Curitiba: Juruá, 2007.",
                 ],
-            },
-        ],
-    },
-
-    {
-        picture: "/team_imgs/advogada_002.png",
-        name: "Franchielle Stresser Gioppo",
-        role: "Lawyer and Manager",
-        OAB_number: "OAB/PR | 46290",
-        OAB_Link: "https://www.oabpr.org.br/servicos-consulta-de-advogados/consulta-de-advogado/?oabn=46290&tpinsc=A",
-        cellphone: "(41) 999 155 252",
-        telephone: "(41) 3335-6000",
-        email: "fran@stressermachado.adv.br",
-
-        description: [
-            "Graduated in Law from the Pontifical Catholic University of Paraná (2007), with specialization in Public Law with emphasis on Constitutional Law by the renowned jurist Damásio de Jesus.",
-            "Practicing lawyer in the areas of Labor Law, Family Law, and Social Security Law.",
-        ],
-
-        academicBackground: [
-            {
-                title: "Academic Background",
-                paragraphs: [
-                    "Specialization in Public Law (2007-2008) - São Domingos Institute Courses and Editorial Services Ltda, Advisor: Guilherme da Câmara Silva",
-                    "Bachelor's degree in Law (2002-2007) - Pontifical Catholic University of Paraná, Advisor: José Carlos Santos Gomes",
-                ],
-            },
-        ],
-
-        complementaryEducation: [
-            {
-                title: "Complementary Education",
-                paragraphs: [
-                    "Labor Calculations (2009) - Superior School of Advocacy - OAB/PR",
-                    "General Notions of Social Security Law (2008) - Legal Course - University Extension of Paraná",
-                ],
-            },
-        ],
-
-        professionalExperience: [
-            {
-                title: "Professional Experience",
-                paragraphs: ["Legal Advisory at Banco do Brasil S/A (2005-2007)"],
             },
         ],
     },

@@ -10,18 +10,18 @@ const portugueseWebStructure: WebStructure = {
     common: {
         customScheduleText: "Agende uma Consulta",
         returnToAreasOfExpertise: "Voltar para Áreas de Atuação",
-        customTitle: "Santana Lima | Advocacia e Consultoria",
+        customTitle: "Santana Lima | Advocacia & Consultoria",
         customDescription:
             "Escritório de Advocacia em Curitiba com mais de 30 anos de atuação no mercado e sólida formação acadêmica. Oferecemos uma ampla gama de serviços jurídicos, incluindo direito civil, criminal, trabalhista, administrativo e tributário, com compromisso de fornecer orientação jurídica confiável e personalizada para atender às necessidades individuais de nossos clientes.",
-        customWebsiteURL: "https://www.stresseremachado.adv.br",
+        customWebsiteURL: "https://limasantana.vercel.com",
     },
     navbar: {
         logo: {
-            pathURL: "/brand_imgs/Logo_Orange.png",
-            title: "Stresser & Machado",
+            pathURL: "/brand_imgs/Icone_Alt_512.png",
+            title: "Santana Lima | Advocacia & Consultoria",
             width: 100,
             height: 100,
-            alt: "Logotipo Stresser & Machado",
+            alt: "Logotipo Santana Lima",
         },
 
         navLinks: [
@@ -160,7 +160,7 @@ const portugueseWebStructure: WebStructure = {
             label: "Mudar para Inglês",
             availableLangs: ["en", "pt-BR"],
         },
-        copyRight: "© 2024 Stresser & Machado",
+        copyRight: "© 2024 Santana Lima",
 
         scheduleBtn: {
             title: "Agende uma Consulta",

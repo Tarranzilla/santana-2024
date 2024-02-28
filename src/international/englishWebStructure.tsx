@@ -10,18 +10,18 @@ const englishWebStructure: WebStructure = {
     common: {
         customScheduleText: "Schedule an Appointment",
         returnToAreasOfExpertise: "Return to Areas of Expertise",
-        customTitle: "Stresser & Machado | Advocacy and Legal Consultancy",
+        customTitle: "Santana Lima | Advocacy & Consultancy",
         customDescription:
-            "Law firm in Curitiba led by two experienced lawyers, with twenty years of experience in the market and a solid academic background. We offer a wide range of legal services, including civil, criminal, labor, administrative, and tax law, with a commitment to providing reliable and personalized legal guidance to meet the individual needs of our clients.",
-        customWebsiteURL: "https://www.stresseremachado.adv.br/en",
+            "Law Firm in Curitiba with over 30 years of experience in the market and a solid academic background. We offer a wide range of legal services, including civil, criminal, labor, administrative, and tax law, with a commitment to providing reliable and personalized legal guidance to meet the individual needs of our clients.",
+        customWebsiteURL: "https://limasantana.vercel.com",
     },
     navbar: {
         logo: {
-            pathURL: "/brand_imgs/Logo_Orange.png",
-            title: "Stresser & Machado",
+            pathURL: "/brand_imgs/Icone_Alt_512.png",
+            title: "Santana Lima | Advocacia & Consultoria",
             width: 100,
             height: 100,
-            alt: "Logotype Stresser & Machado",
+            alt: "Logotipo Santana Lima",
         },
 
         navLinks: [
@@ -103,18 +103,17 @@ const englishWebStructure: WebStructure = {
             },
             about: {
                 key: "quem-somos",
-                title: "About Us",
+                title: "About the Firm",
                 paragraphs: [
-                    "The law firm Stresser and Machado is recognized for the exemplary leadership of two prominent lawyers in the field. With a solid experience gained in both public and private service, they bring with them a deep understanding of legal nuances and intricacies of the legal system. Throughout their twenty years of practice in the market and academic formation, they have established themselves as leaders in the field.",
-                    "Our office offers a wide range of legal services, covering areas such as civil, criminal, labor, administrative, and tax law. We are committed to providing reliable and high-quality legal guidance to meet the diverse needs of our clients.",
-                    "Furthermore, the personalized approach adopted by Stresser and Machado's office is a distinctive feature. We understand that each case is unique and deserves individualized attention. Therefore, we work closely with our clients, developing tailored legal strategies to achieve the best possible results.",
-                    "Our commitment to excellence and integrity is essential in every aspect of our work. Not only do we vigorously defend the interests of our clients, but we also do so within the highest ethical standards. This ensures not only satisfactory results but also the lasting trust and satisfaction of those who rely on our services.",
+                    "Since 1992, Elza and her team have established a reputation for excellence, ethics, and respect. The office is recognized for its commitment to compliance with standards and regulations, ensuring that ethics, quality, and respect are always at the forefront of every interaction.",
+                    "We offer a wide range of legal services, from consultancy and advisory to litigation in both judicial and administrative arenas. Known for our competence and expertise across various areas of law, with associated offices throughout the state, we continue to be a benchmark in the legal field, providing effective and reliable solutions for our clients.",
+                    "Our commitment to excellence and integrity is paramount in every aspect of our work. Not only do we vigorously advocate for the interests of our clients, but we also do so within the highest ethical standards. This ensures not only satisfactory outcomes but also lasting trust and satisfaction from those who rely on our services.",
                 ],
             },
 
             team: {
                 key: "equipe",
-                title: "Our Team",
+                title: "Curriculum",
                 members: teamList_EN,
             },
 
@@ -161,7 +160,7 @@ const englishWebStructure: WebStructure = {
             label: "Change to Portuguese",
             availableLangs: ["en", "pt-BR"],
         },
-        copyRight: "© 2024 Stresser & Machado",
+        copyRight: "© 2024 Santana Lima",
 
         scheduleBtn: {
             title: "Schedule an Appointment",

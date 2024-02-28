@@ -4,7 +4,7 @@ const termsList_EN: ParagraphsWithTitle[] = [
     {
         title: "Terms of Use",
         paragraphs: [
-            "These Terms of Use govern the use of the Stresser e Machado law firm's website (we, our, or us). By accessing and using our website [insert website URL], you agree to these terms and conditions.",
+            "These Terms of Use govern the use of the Santana Lima law firm's website (we, our, or us). By accessing and using our website [insert website URL], you agree to these terms and conditions.",
         ],
     },
     {
@@ -16,13 +16,13 @@ const termsList_EN: ParagraphsWithTitle[] = [
     {
         title: "Intellectual Property",
         paragraphs: [
-            "The content of our website, including text, graphics, logos, button icons, images, audio clips, digital downloads, data compilations, and software, is the exclusive property of the Stresser e Machado law firm and is protected by copyright laws and other applicable intellectual property laws.",
+            "The content of our website, including text, graphics, logos, button icons, images, audio clips, digital downloads, data compilations, and software, is the exclusive property of the Santana Lima law firm and is protected by copyright laws and other applicable intellectual property laws.",
         ],
     },
     {
         title: "Limitation of Liability",
         paragraphs: [
-            "In no event shall the Stresser e Machado law firm, its directors, employees, or affiliates be liable for any direct, indirect, punitive, incidental, special, or consequential damages arising out of or in any way connected with the use or inability to use the website.",
+            "In no event shall the Santana Lima law firm, its directors, employees, or affiliates be liable for any direct, indirect, punitive, incidental, special, or consequential damages arising out of or in any way connected with the use or inability to use the website.",
         ],
     },
     {

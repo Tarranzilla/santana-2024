@@ -4,7 +4,7 @@ const termsList: ParagraphsWithTitle[] = [
     {
         title: "Termos de Uso",
         paragraphs: [
-            "Estes Termos de Uso regem o uso do site do escritório de advocacia Stresser e Machado (nós, nosso ou nos). Ao acessar e usar nosso site [inserir URL do site], você concorda com estes termos e condições.",
+            "Estes Termos de Uso regem o uso do site do escritório de advocacia Santana Lima (nós, nosso ou nos). Ao acessar e usar nosso site [inserir URL do site], você concorda com estes termos e condições.",
         ],
     },
     {
@@ -16,13 +16,13 @@ const termsList: ParagraphsWithTitle[] = [
     {
         title: "Propriedade Intelectual",
         paragraphs: [
-            "O conteúdo do nosso site, incluindo texto, gráficos, logotipos, ícones de botões, imagens, clipes de áudio, downloads digitais, compilações de dados e software, é de propriedade exclusiva do escritório de advocacia Stresser e Machado e está protegido por leis de direitos autorais e outras leis de propriedade intelectual aplicáveis.",
+            "O conteúdo do nosso site, incluindo texto, gráficos, logotipos, ícones de botões, imagens, clipes de áudio, downloads digitais, compilações de dados e software, é de propriedade exclusiva do escritório de advocacia Santana Lima e está protegido por leis de direitos autorais e outras leis de propriedade intelectual aplicáveis.",
         ],
     },
     {
         title: "Limitação de Responsabilidade",
         paragraphs: [
-            "Em nenhuma circunstância o escritório de advocacia Stresser e Machado, seus diretores, funcionários ou afiliados serão responsáveis por quaisquer danos diretos, indiretos, punitivos, incidentais, especiais ou consequenciais decorrentes do uso ou incapacidade de uso do site.",
+            "Em nenhuma circunstância o escritório de advocacia Santana Lima, seus diretores, funcionários ou afiliados serão responsáveis por quaisquer danos diretos, indiretos, punitivos, incidentais, especiais ou consequenciais decorrentes do uso ou incapacidade de uso do site.",
         ],
     },
     {
