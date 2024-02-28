@@ -21,8 +21,8 @@ export default function Home() {
 
                 <meta property="og:title" content={t.common.customTitle} />
                 <meta property="og:description" content={t.common.customDescription} />
-                <meta property="og:image" content="https://stresseremachado.vercel.app/brand_imgs/Icone_512.png" />
-                <meta property="og:url" content="https://stresseremachado.vercel.app/" />
+                <meta property="og:image" content="https://santana-lima.vercel.app/brand_imgs/Icone_SL_512.png" />
+                <meta property="og:url" content="https://santana-lima.vercel.app/" />
 
                 <meta name="author" content="https://pragmata.ninja/"></meta>
             </Head>
