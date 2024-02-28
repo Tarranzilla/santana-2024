@@ -431,7 +431,6 @@ body.body-no-scroll {
     font-weight: bold;
     color: var(--text-color);
     font-family: "trajan-pro-3", serif;
-    font-size: 2rem;
     letter-spacing: 0.25rem;
     border-bottom: 1px solid var(--text-color);
     padding: var(--medium-gap) 0;
@@ -643,16 +642,18 @@ body.body-no-scroll {
     display: flex;
     flex: 1;
     object-fit: cover;
-    width: 200px;
+    width: 100%;
+    max-width: 400px;
     height: 300px;
     border-radius: var(--normal-gap);
     border: 3px solid var(--text-color);
 }
 
 .Team_Member_Name {
+    font-family: "trajan-pro-3", serif;
     padding-bottom: var(--normal-gap);
     border-bottom: 1px solid var(--text-color);
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 
 .Team_Member_Info {
@@ -874,7 +875,7 @@ body.body-no-scroll {
     margin-top: 0.5rem;
     font-family: "trajan-pro-3", serif;
     letter-spacing: 0.25rem;
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding-bottom: var(--medium-gap);
     margin-bottom: var(--medium-gap);
     border-bottom: 1px solid var(--text-color);
@@ -998,6 +999,13 @@ body.body-no-scroll {
     .Banner_Slide {
         padding: 4rem 2rem;
         height: 60vh;
+    }
+
+    .Team_Member {
+        flex-direction: column;
+    }
+
+    .Team_Member_Header {
     }
 
     .Expertise_Page_Footer {

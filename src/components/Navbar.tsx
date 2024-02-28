@@ -24,7 +24,7 @@ export default function Navbar() {
             <div className="Navbar">
                 <div className="Navbar_Content">
                     <div className="Logo_Container">
-                        <Image className="Logo" src="/brand_imgs/Icone_Alt_128.png" alt="Logo" width={100} height={100} />
+                        <Image className="Logo" src="/brand_imgs/Icone_Alt_B_128.png" alt="Logo" width={100} height={100} />
                     </div>
 
                     <div className="LogoType_Container">
