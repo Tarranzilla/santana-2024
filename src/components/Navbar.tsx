@@ -28,7 +28,7 @@ export default function Navbar() {
                     </div>
 
                     <div className="LogoType_Container">
-                        <h1 className="Logo_Type">Sant'Ana</h1>
+                        <h1 className="Logo_Type">Sant&apos;Ana</h1>
                         <div className="Logo_Type_Special_Container">
                             <div className="Logo_Type_Special_Trace"></div>
                         </div>
