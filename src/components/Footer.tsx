@@ -39,7 +39,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <p className="Desktop_Only">© 2024 Santana Lima</p>
+                <p className="Desktop_Only">© 2024 Sant'Ana Advocacia</p>
 
                 <div className="Footer_Actions">
                     <div className="Footer_Btn Quote_Btn" title={t.footer.scheduleBtn.label}>

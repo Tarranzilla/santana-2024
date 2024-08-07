@@ -24,16 +24,16 @@ export default function Navbar() {
             <div className="Navbar">
                 <div className="Navbar_Content">
                     <div className="Logo_Container">
-                        <Image className="Logo" src="/brand_imgs/Icone_Alt_B_128.png" alt="Logo" width={100} height={100} />
+                        <Image className="Logo" src="/brand_imgs/new_era/logo_new_era.png" alt="Logo" width={100} height={100} />
                     </div>
 
                     <div className="LogoType_Container">
-                        <h1 className="Logo_Type">Santana Lima</h1>
+                        <h1 className="Logo_Type">Sant'Ana</h1>
                         <div className="Logo_Type_Special_Container">
                             <div className="Logo_Type_Special_Trace"></div>
                         </div>
 
-                        <h2 className="Logo_Type_Subtitle">Advocacia & Consultoria</h2>
+                        <h2 className="Logo_Type_Subtitle">Advocacia</h2>
                     </div>
 
                     <div className="Navbar_Links Desktop_Only">

@@ -1,19 +1,19 @@
 {
     "short_name": "Santana_Lima",
-    "name": "Santana Lima | Advocacia & Consultoria",
+    "name": "Sant'Ana | Advocacia",
     "icons": [
         {
-            "src": "/brand_imgs/Icone_SL_128.png",
+            "src": "/brand_imgs/new_era/logo_new_era_256px.png",
             "sizes": "128x128",
             "type": "image/png"
         },
         {
-            "src": "/brand_imgs/Icone_SL_256.png",
+            "src": "/brand_imgs/new_era/logo_new_era_256px.png",
             "sizes": "256x256",
             "type": "image/png"
         },
         {
-            "src": "/brand_imgs/Icone_SL_512.png",
+            "src": "/brand_imgs/new_era/logo_new_era.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "maskable"

@@ -35,7 +35,14 @@ export default function Intro() {
                 {isMounted && (
                     <m.div initial={{ opacity: 1 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5 }} className="Intro">
                         <div className="Intro_Content">
-                            <Image className="Intro_Image" src={"/brand_imgs/Logo_Tipo_SL_003.png"} alt="Logo" priority width={400} height={400} />
+                            <Image
+                                className="Intro_Image"
+                                src={"/brand_imgs/new_era/logo_new_era.png"}
+                                alt="Logo"
+                                priority
+                                width={400}
+                                height={400}
+                            />
                         </div>
                     </m.div>
                 )}

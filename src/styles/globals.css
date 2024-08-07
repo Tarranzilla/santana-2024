@@ -105,6 +105,7 @@ body.body-no-scroll {
     width: 340px;
     object-fit: contain;
     animation: scaleBounce 2s infinite;
+    border-radius: 1rem;
 }
 
 /* COOKIES */
@@ -250,7 +251,7 @@ body.body-no-scroll {
 }
 
 .Logo {
-    height: 2.5rem;
+    height: 2.8rem;
     width: auto;
     border-radius: 0.2rem;
 }
@@ -262,10 +263,10 @@ body.body-no-scroll {
 .Logo_Type {
     font-family: "trajan-pro-3", serif;
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: var(--text-color);
     letter-spacing: 0.15rem;
-    margin-bottom: -0.25rem;
+    margin-bottom: -0.175rem;
 }
 
 .Logo_Type_Special_Container {
@@ -298,9 +299,9 @@ body.body-no-scroll {
 .Logo_Type_Subtitle {
     font-family: "trajan-pro-3", serif;
     font-weight: 300;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     color: var(--text-color);
-    letter-spacing: 0.075rem;
+    letter-spacing: 0.175rem;
 }
 
 .Navbar_Links {

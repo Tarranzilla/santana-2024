@@ -10,7 +10,7 @@ const portugueseWebStructure: WebStructure = {
     common: {
         customScheduleText: "Agende uma Consulta",
         returnToAreasOfExpertise: "Voltar para Áreas de Atuação",
-        customTitle: "Santana Lima | Advocacia & Consultoria",
+        customTitle: "Sant'Ana | Advocacia",
         customDescription:
             "Escritório de Advocacia em Curitiba com mais de 30 anos de atuação no mercado e sólida formação acadêmica. Oferecemos uma ampla gama de serviços jurídicos, incluindo direito civil, criminal, trabalhista, administrativo e tributário, com compromisso de fornecer orientação jurídica confiável e personalizada para atender às necessidades individuais de nossos clientes.",
         customWebsiteURL: "https://santana-lima.vercel.com",
@@ -18,10 +18,10 @@ const portugueseWebStructure: WebStructure = {
     navbar: {
         logo: {
             pathURL: "/brand_imgs/Icone_Alt_512.png",
-            title: "Santana Lima | Advocacia & Consultoria",
+            title: "Sant'Ana | Advocacia",
             width: 100,
             height: 100,
-            alt: "Logotipo Santana Lima",
+            alt: "Logotipo Sant'Ana | Advocacia",
         },
 
         navLinks: [
