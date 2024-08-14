@@ -19,6 +19,11 @@ export default function Navbar() {
         router.push(currentPath, currentPath, { locale: newLocale });
     };
 
+    const handleTextSizeClick = () => {
+        const currentFontSize = getComputedStyle(document.documentElement).fontSize;
+        document.documentElement.style.fontSize = currentFontSize === "16px" ? "18px" : "16px";
+    };
+
     return (
         <>
             <div className="Navbar">
@@ -47,15 +52,21 @@ export default function Navbar() {
                             })}
                     </div>
 
-                    <div className="Menu_Container Mobile_Only">
-                        <span
-                            onClick={() => {
-                                setMenuOpen(!menuOpen);
-                            }}
-                            className="material-icons"
-                        >
-                            menu_book
-                        </span>
+                    <div className="Navbar_Options">
+                        <div className="TextSizeBtn Menu_Container" onClick={handleTextSizeClick}>
+                            <span className="material-icons">text_fields</span>
+                        </div>
+
+                        <div className="Menu_Container">
+                            <span
+                                onClick={() => {
+                                    setMenuOpen(!menuOpen);
+                                }}
+                                className="material-icons"
+                            >
+                                menu_book
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>

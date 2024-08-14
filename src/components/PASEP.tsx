@@ -20,7 +20,7 @@ const BannerPASEP = () => {
                 <h4 className="Special_Service_List_Item">Membros das Forças Armadas</h4>
                 <h4 className="Special_Service_List_Item">Bombeiros</h4>
                 <h4 className="Special_Service_List_Item">Funcionários Públicos</h4>
-                <h4 className="Special_Service_List_Item">Pensionistas e Herdeiros de Funcionários Públicos ou Militares</h4>
+                <h4 className="Special_Service_List_Item">Pensionistas e Herdeiros</h4>
             </div>
             <Link
                 href={`https://wa.me/+554198077135?text=${toUrlValidString(message)}`}

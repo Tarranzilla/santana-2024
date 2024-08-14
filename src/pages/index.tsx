@@ -27,6 +27,7 @@ export default function Home() {
 
                 <meta name="author" content="https://pragmata.ninja/"></meta>
             </Head>
+
             <m.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5 }} key="home">
                 <main className="Page_Wrapper">
                     <section id="inicio" key={"inicio"}>
@@ -63,18 +64,18 @@ export default function Home() {
                                                 </Link>
 
                                                 <div className="Team_Member_Actions">
-                                                    <div className="Team_Member_Action">
+                                                    <Link href={`tel:${member.cellphone}`} className="Team_Member_Action">
                                                         <span className="material-icons">phone</span>
                                                         <p>{member.cellphone}</p>
-                                                    </div>
-                                                    <div className="Team_Member_Action">
+                                                    </Link>
+                                                    <Link href={`tel:${member.telephone}`} className="Team_Member_Action">
                                                         <span className="material-icons">fax</span>
                                                         <p>{member.telephone}</p>
-                                                    </div>
-                                                    <div className="Team_Member_Action">
+                                                    </Link>
+                                                    <Link href={`mailto:${member.email}`} className="Team_Member_Action">
                                                         <span className="material-icons">mail</span>
                                                         <p>{member.email}</p>
-                                                    </div>
+                                                    </Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -129,9 +130,7 @@ export default function Home() {
                             <h2 className="Section_Title" key={t.landingPage.sections.expertise.title}>
                                 {t.landingPage.sections.expertise.title}
                             </h2>
-
                             <BannerPASEP />
-
                             <CardGrid content={t.landingPage.sections.expertise.expertiseList} />
                         </div>
                     </section>

@@ -308,7 +308,7 @@ body.body-no-scroll {
 }
 
 .Navbar_Links {
-    margin-left: auto;
+    margin-inline: auto;
     display: flex;
     gap: var(--medium-gap);
 }
@@ -331,8 +331,13 @@ body.body-no-scroll {
     color: white;
 }
 
-.Menu_Container {
+.Navbar_Options {
+    display: flex;
+    gap: var(--medium-gap);
     margin-left: auto;
+}
+
+.Menu_Container {
     cursor: pointer;
 }
 
@@ -626,6 +631,10 @@ body.body-no-scroll {
     margin-inline: auto;
 }
 
+.About_Container > p {
+    font-size: 1.2rem;
+}
+
 .Team_Container {
     display: flex;
     gap: var(--max-gap);
@@ -643,7 +652,8 @@ body.body-no-scroll {
     display: flex;
     gap: var(--normal-gap);
     flex-wrap: wrap;
-    min-width: 240px;
+    align-content: flex-start;
+    min-width: 320px;
 }
 
 .Team_Member_Header > img {
@@ -652,7 +662,7 @@ body.body-no-scroll {
     object-fit: cover;
     width: 100%;
     max-width: 400px;
-    height: 300px;
+    height: auto;
     border-radius: var(--normal-gap);
     border: 3px solid var(--text-color);
 }
@@ -662,6 +672,7 @@ body.body-no-scroll {
     padding-bottom: var(--normal-gap);
     border-bottom: 1px solid var(--text-color);
     font-size: 1.4rem;
+    text-align: center;
 }
 
 .Team_Member_Info {
@@ -684,25 +695,62 @@ body.body-no-scroll {
     text-decoration: none;
     font-weight: 500;
     transition: font-size 0.3s ease, background-color 0.3s ease;
+    font-size: 1.2rem;
 }
 
 .Team_Member_OAB_Link:focus-within,
 .Team_Member_OAB_Link:hover {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     background-color: white;
+}
+
+.Team_Member_Actions {
+    display: flex;
+    flex-direction: column;
+    gap: var(--small-gap);
+    background-color: var(--text-color);
+    border-radius: 0.5rem;
 }
 
 .Team_Member_Action {
     display: flex;
     align-items: center;
     gap: var(--normal-gap);
-    font-size: 0.85rem;
+    font-size: 1.2rem;
+
+    color: var(--bg-color);
+    padding: var(--small-gap);
+
+    border-bottom: 2px solid var(--bg-color);
+
+    position: relative;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.Team_Member_Action:last-of-type {
+    border-bottom: none;
+}
+
+.Team_Member_Action:hover,
+.Team_Member_Action:focus-within {
+    font-size: 1.4rem;
+}
+
+.Team_Member_Action > span {
+    position: absolute;
+    left: var(--normal-gap);
+}
+
+.Team_Member_Action > p {
+    margin-inline: auto;
 }
 
 .Team_Member_Description {
     display: flex;
     flex-direction: column;
     gap: var(--large-gap);
+    font-size: 1.2rem;
 }
 
 .Team_Member_AcademicBackground > h3,
@@ -1062,6 +1110,8 @@ body.body-no-scroll {
     padding-inline: var(--medium-gap);
     background-color: var(--bg-color-faded-50);
     backdrop-filter: blur(5px);
+
+    z-index: 4;
 }
 
 .Footer_Content {
@@ -1178,11 +1228,20 @@ body.body-no-scroll {
     .Special_Service_List_Item {
         font-size: 1rem;
         line-height: 1.4rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .Expertise_SubItem {
         flex-direction: column;
+        align-items: flex-start;
         gap: var(--medium-gap);
+    }
+
+    .Expertise_SubItem_Schedule_Btn {
+        width: 100%;
     }
 }
 
