@@ -88,7 +88,7 @@ export default function ExpertiseDetail({ expertise }: { expertise: Expertise })
     return (
         <>
             <Head>
-                <title>{"Stresser & Machado | " + expertise.title}</title>
+                <title>{"Sant'Ana | " + expertise.title}</title>
                 <meta name="description" content={expertise.metadescription} />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />

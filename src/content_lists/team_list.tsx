@@ -2,7 +2,7 @@ import { TeamMember } from "@/types/TeamMember";
 
 const teamList: TeamMember[] = [
     {
-        picture: "/team_imgs/foto_elza_001.png",
+        picture: "/team_imgs/foto_elza_002.jpg",
         name: "Elza Santana Lima",
         role: "Advogada e Gestora",
         OAB_number: "OAB/PR | 16862",
@@ -12,9 +12,10 @@ const teamList: TeamMember[] = [
         email: "elza_ld@hotmail.com",
 
         description: [
-            "Com uma vasta experiência e especialização no campo do Direito do Consumidor Bancário, Elza Santana Lima é uma profissional renomada no cenário jurídico. Graduada em Direito pela Universidade Paranaense e Pós-Graduada em Direito do Trabalho pela Pontifícia Universidade Católica do Paraná em 2005, possui um histórico acadêmico sólido e enriquecedor.",
-            'Autora de obras respeitadas, como "Considerações do Art. 62 da CLT – Trabalho Externo de Motoristas e Altos Empregados", publicada em "Estado e Atividade Econômica – O Direito Laboral em Perspectiva" (Juruá, 2007), Elza contribui significativamente para o campo do Direito com sua pesquisa e escrita perspicazes.',
-            "Além de sua dedicação ao Direito, Elza também é uma figura ativa em atividades filantrópicas, envolvendo-se com organizações como Recriar Família e Adoção, Ciranda da Esperança e Rotary International. Sua paixão por ajudar os outros se estende além das paredes do tribunal, mostrando seu compromisso com o bem-estar da comunidade.",
+            "Com vasta experiência  no campo do Direito do Trabalho, com atuação há 34 anos,  Dra. Elza Santana de Lima é uma profissional renomada no cenário jurídico. Graduada  pela Universidade Paranaense e Especialista em Direito do Trabalho pela Pontifícia Universidade Católica do Paraná.",
+            "Atuou como diretora de negociação coletiva no SINAP - Sindicato dos Advogados do Paraná  na defesa dos direitos dos advogados empregados.",
+            "Advogou por 10 anos no SINTRACON, Sindicato dos Trabalhadores da Construção Civil de Curitiba.",
+            "Com escritório desde 1990, atuando em várias áreas do direito, optando  hoje pelo Direito do Trabalho e previdenciário.",
         ],
 
         academicBackground: [

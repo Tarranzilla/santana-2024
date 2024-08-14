@@ -8,6 +8,7 @@ import CardGrid from "@/components/cardGrid";
 import { motion as m } from "framer-motion";
 
 import { useSimpleTranslation } from "@/international/useSimpleTranslation";
+import BannerPASEP from "@/components/PASEP";
 
 export default function Home() {
     const t = useSimpleTranslation();
@@ -128,6 +129,9 @@ export default function Home() {
                             <h2 className="Section_Title" key={t.landingPage.sections.expertise.title}>
                                 {t.landingPage.sections.expertise.title}
                             </h2>
+
+                            <BannerPASEP />
+
                             <CardGrid content={t.landingPage.sections.expertise.expertiseList} />
                         </div>
                     </section>

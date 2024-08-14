@@ -105,9 +105,9 @@ const portugueseWebStructure: WebStructure = {
                 key: "quem-somos",
                 title: "Sobre o Escritório",
                 paragraphs: [
-                    "Atuando desde 1992, Elza e sua equipe estabeleceram uma reputação de excelência, ética e respeito. O escritório é reconhecido pelo seu compromisso com a conformidade com normas e regulamentos, garantindo que a ética, a qualidade e o respeito estejam sempre em primeiro plano em todas as interações.",
-                    "Oferecemos uma ampla gama de serviços jurídicos, desde consultoria e assessoria até contencioso judicial e administrativo, somos conhecidos por sua competência e habilidade em diversas áreas do Direito. Com escritórios associados em todo o Estado, continuamos a ser uma referência no campo jurídico, fornecendo soluções eficazes e confiáveis para nossos clientes.",
-                    "Nosso compromisso com a excelência e a integridade é essencial em cada aspecto de nosso trabalho. Não apenas defendemos os interesses de nossos clientes de forma vigorosa, mas também o fazemos dentro dos mais altos padrões éticos. Isso garante não apenas resultados satisfatórios, mas também a confiança e a satisfação duradouras daqueles que confiam em nossos serviços.",
+                    "Atuando desde 1990, Dra.  Elza Sant’ana de Lima conta com reputação de excelência e respeito. O escritório é reconhecido pelo seu compromisso com a conformidade, normas e regulamentos da Ordem dos Advogados do Brasil, garantindo que a ética, a qualidade e o respeito estejam sempre em primeiro plano em todas as interações.",
+                    "Oferecemos uma ampla gama de serviços jurídicos, desde consultoria e assessoria até contencioso judicial e administrativo, em diversas áreas do Direito.",
+                    "O atendimento personalizado é essencial em cada aspecto de nosso trabalho para alcançar a excelência e a integridade a nós confiadas. Isso garante não apenas resultados satisfatórios, mas também a confiança e a satisfação duradouras daqueles que confiam em nossos serviços.",
                 ],
             },
 

@@ -6,7 +6,7 @@ export const expertiseList: Expertise[] = [
         title: "Direito do Trabalho",
         description: "Envolvendo leis e normas para empregadores e empregados.",
         metadescription:
-            "Oferecemos orientação jurídica confiável e ágil para empregadores e empregados, abordando questões como contratos, demissões, rescisões e direitos trabalhistas.",
+            "Oferecemos orientação jurídica confiável e ágil para empregadores e empregados, abordando questões como leis, normas, contratos, demissões, rescisões e direitos trabalhistas.",
         imgSrc: "/expertise_imgs/direito_trabalhista_001.png",
         size: {
             width: 740,
@@ -15,29 +15,29 @@ export const expertiseList: Expertise[] = [
         pageLink: "/expertise/direito_do_trabalho",
         subitems: [
             {
-                key: "legislacao_trabalhista",
-                title: "Legislação Trabalhista",
-                description: "Conjunto de leis que regulam as relações de trabalho.",
-            },
-            {
-                key: "relacoes_empregaticias",
-                title: "Relações Empregatícias",
+                key: "vinculos_empregaticios",
+                title: "Vínculos Empregatícios",
                 description: "Questões relacionadas a contratos de trabalho, rescisões, etc.",
             },
             {
-                key: "direitos_deveres_empregado",
-                title: "Direitos e Deveres do Empregado",
-                description: "Obrigações e prerrogativas do trabalhador.",
+                key: "vinculos_terceirizados",
+                title: "Vínculos Terceirizados com CNPJ",
+                description: "Questões relacionadas a contratos de trabalho, rescisões, etc.",
             },
             {
-                key: "direitos_deveres_empregador",
-                title: "Direitos e Deveres do Empregador",
-                description: "Obrigações e prerrogativas do empregador.",
-            },
-            {
-                key: "rescisao_contrato_trabalho",
-                title: "Rescisão de Contrato de Trabalho",
+                key: "rescisao_contrato",
+                title: "Rescisão de Contrato",
                 description: "Procedimentos e direitos envolvidos na rescisão do contrato de trabalho.",
+            },
+            {
+                key: "rescisao_indireta",
+                title: "Rescisão Indireta",
+                description: "Procedimentos e direitos envolvidos na rescisão do contrato de trabalho quando há falta grave do empregador.",
+            },
+            {
+                key: "reversao_de_justa_causa",
+                title: "Reversão de Justa Causa",
+                description: "Procedimentos e direitos envolvidos na reversão da demissão por justa causa.",
             },
             {
                 key: "acidentes_trabalho",
@@ -45,16 +45,31 @@ export const expertiseList: Expertise[] = [
                 description: "Questões relacionadas a acidentes e doenças ocupacionais.",
             },
             {
-                key: "normas_coletivas",
-                title: "Normas Coletivas",
-                description: "Convenções e acordos coletivos de trabalho.",
+                key: "estabilidade_acidentaria",
+                title: "Estabilidade Acidentária",
+                description: "Direitos e procedimentos envolvidos na estabilidade do empregado acidentado.",
+            },
+            {
+                key: "estabilidade_gestante",
+                title: "Estabilidade da Gestante",
+                description: "Direitos e procedimentos envolvidos na estabilidade da empregada gestante.",
+            },
+            {
+                key: "estabilidade_pre_aposentadoria",
+                title: "Estabilidade Pré-Aposentadoria",
+                description: "Direitos e procedimentos envolvidos na estabilidade do empregado próximo à aposentadoria.",
+            },
+            {
+                key: "beneficios_e_auxilios_convencionais",
+                title: "Benefícios e Auxílios Convencionais",
+                description: "Direitos e procedimentos envolvidos em benefícios e auxílios previstos em convenções coletivas.",
             },
         ],
     },
     {
         key: "direito_previdenciario",
         title: "Direito Previdenciário",
-        description: "Atuação nas questões relacionadas à previdência social.",
+        description: "Análise, Simulação e Planejamento de Aposentadorias e Benefícios Previdenciários.",
         metadescription:
             "Com expertise em Direito Previdenciário, nosso escritório fornece assistência abrangente em questões relacionadas à Previdência Social, incluindo aposentadorias, benefícios por incapacidade, pensões e revisões de benefícios.",
         imgSrc: "/expertise_imgs/direito_previdenciario_001.png",
@@ -65,25 +80,76 @@ export const expertiseList: Expertise[] = [
         },
         subitems: [
             {
-                key: "beneficios_previdenciarios",
-                title: "Benefícios Previdenciários",
+                key: "aposentadoria_por_idade",
+                title: "Aposentadoria Por Idade",
+                description: "Modalidade de aposentadoria concedida ao trabalhador que atinge a idade mínima estabelecida em lei.",
+            },
+            {
+                key: "aposentadoria_por_tempo_contribuicao",
+                title: "Aposentadoria Tempo de Contribuição",
+                description: "Modalidade de aposentadoria concedida ao trabalhador que atinge o tempo mínimo de contribuição exigido.",
+            },
+            {
+                key: "aposentadoria_trabalho_especial",
+                title: "Aposentadoria por Trabalho Especial",
                 description:
-                    "Modalidades de benefícios oferecidas pela previdência social, como aposentadoria, pensão por morte, auxílio-doença, etc.",
+                    "Modalidade de aposentadoria concedida ao trabalhador que exerce atividades em condições prejudiciais à saúde ou à integridade física.",
             },
             {
-                key: "requisitos_concessao_beneficios",
-                title: "Requisitos para Concessão de Benefícios",
-                description: "Critérios necessários para obter os benefícios previdenciários.",
+                key: "aposentadoria_hibrida",
+                title: "Aposentadoria Híbrida",
+                description:
+                    "Modalidade da aposentadoria por idade para os segurados do Instituto Nacional do Seguro Social (INSS) que possuem parte do tempo de contribuição com atividades na zona rural e outra parte na zona urbana.",
             },
             {
-                key: "processo_administrativo_previdenciario",
-                title: "Processo Administrativo Previdenciário",
-                description: "Trâmites e procedimentos para requerer benefícios junto à previdência social.",
+                key: "aposentadoria_por_invalidez",
+                title: "Aposentadoria por Invalidez",
+                description:
+                    "Modalidade de aposentadoria concedida ao trabalhador que se encontra incapacitado de forma total e permanente para o trabalho.",
+            },
+            {
+                key: "acrescimo_aposentadoria_invalidez",
+                title: "Acréscimo na Aposentadoria por Invalidez",
+                description:
+                    "Modalidade de aposentadoria concedida ao trabalhador que se encontra incapacitado de forma total e permanente para o trabalho.",
+            },
+            {
+                key: "averbacao_tempo_trabalho_ente_publico",
+                title: "Averbação de Tempo de Trabalho em Ente Público",
+                description: "Procedimento para contabilizar o tempo de serviço prestado em entes públicos para fins de aposentadoria.",
+            },
+            {
+                key: "pensao_por_morte",
+                title: "Pensão por Morte",
+                description: "Benefício previdenciário concedido aos dependentes do segurado falecido, como cônjuge, filhos, pais, etc.",
+            },
+            {
+                key: "auxilio_acidente",
+                title: "Auxílio Acidente",
+                description:
+                    "Auxílio previdenciário concedido ao segurado que sofre um acidente de trabalho e apresenta sequelas que reduzem sua capacidade laborativa.",
+            },
+            {
+                key: "auxilio_doenca",
+                title: "Auxílio Doença",
+                description:
+                    "Benefício previdenciário concedido ao segurado que se encontra temporariamente incapaz para o trabalho em decorrência de doença ou acidente.",
+            },
+            {
+                key: "beneficio_de_prestacoes_continuadas",
+                title: "Benefício de Prestações Continuadas",
+                description:
+                    "Benefício assistencial concedido a idosos e pessoas com deficiência que não possuem meios de prover a própria subsistência.",
             },
             {
                 key: "recursos_administrativos_judiciais",
-                title: "Recursos Administrativos e Judiciais",
+                title: "Recursos Administrativos e Judiciais para Todas as Instâncias",
                 description: "Possibilidades de recurso em caso de negativa ou revisão de benefícios previdenciários.",
+            },
+            {
+                key: "revisoes_completas",
+                title: "Revisões Completas de Benefícios Previdenciários",
+                description: "Revisão de benefícios previdenciários para correção de erros e aumento do valor recebido.",
             },
         ],
     },
@@ -180,59 +246,6 @@ export const expertiseList: Expertise[] = [
                 key: "direito_coisas",
                 title: "Direito das Coisas",
                 description: "Regulamenta os direitos reais sobre bens corpóreos e incorpóreos.",
-            },
-        ],
-    },
-    {
-        key: "direito_familia",
-        title: "Direito de Família",
-        description: "Regula as relações familiares, como casamento, divórcio, guarda de filhos, pensão alimentícia, etc.",
-        metadescription:
-            "Especializados em Direito de Família, prestamos suporte legal em questões como divórcio, pensão alimentícia, guarda de filhos, inventários, adoções, investigação de paternidade e outras questões familiares delicadas.",
-        imgSrc: "/expertise_imgs/direito_familia_002.png",
-        pageLink: "/expertise/direito_familia",
-        size: {
-            width: 300,
-            height: 200,
-        },
-        subitems: [
-            {
-                key: "divorcio",
-                title: "Divórcio",
-                description: "Processo legal que dissolve o vínculo matrimonial entre um casal.",
-            },
-            {
-                key: "uniao_estavel",
-                title: "União Estável",
-                description:
-                    "Reconhecimento jurídico da convivência duradoura, pública e contínua entre duas pessoas, com o objetivo de constituir família.",
-            },
-            {
-                key: "guarda_filhos",
-                title: "Guarda de Filhos",
-                description: "Definição sobre quem terá a responsabilidade legal pelos cuidados e decisões relacionadas aos filhos menores.",
-            },
-            {
-                key: "pensao_alimenticia",
-                title: "Pensão Alimentícia",
-                description:
-                    "Valor pago por uma pessoa para prover as necessidades básicas de sustento de outra, como filhos, ex-cônjuge ou companheiro.",
-            },
-            {
-                key: "partilha_bens",
-                title: "Partilha de Bens",
-                description: "Divisão dos bens adquiridos durante o casamento ou união estável em caso de separação ou divórcio.",
-            },
-            {
-                key: "adoção",
-                title: "Adoção",
-                description:
-                    "Processo legal pelo qual uma pessoa ou um casal assume legalmente a responsabilidade de cuidar e educar uma criança como seu(s) filho(s).",
-            },
-            {
-                key: "investigacao_paternidade",
-                title: "Investigação de Paternidade",
-                description: "Processo judicial para determinar a filiação de uma pessoa a um pai biológico.",
             },
         ],
     },
@@ -360,6 +373,11 @@ export const expertiseList: Expertise[] = [
             },
         ],
     },
+];
+
+export default expertiseList;
+
+/*
     {
         key: "direito_agronegocio",
         title: "Direito do Agronegócio",
@@ -423,6 +441,57 @@ export const expertiseList: Expertise[] = [
             },
         ],
     },
-];
-
-export default expertiseList;
+        {
+        key: "direito_familia",
+        title: "Direito de Família",
+        description: "Regula as relações familiares, como casamento, divórcio, guarda de filhos, pensão alimentícia, etc.",
+        metadescription:
+            "Especializados em Direito de Família, prestamos suporte legal em questões como divórcio, pensão alimentícia, guarda de filhos, inventários, adoções, investigação de paternidade e outras questões familiares delicadas.",
+        imgSrc: "/expertise_imgs/direito_familia_002.png",
+        pageLink: "/expertise/direito_familia",
+        size: {
+            width: 300,
+            height: 200,
+        },
+        subitems: [
+            {
+                key: "divorcio",
+                title: "Divórcio",
+                description: "Processo legal que dissolve o vínculo matrimonial entre um casal.",
+            },
+            {
+                key: "uniao_estavel",
+                title: "União Estável",
+                description:
+                    "Reconhecimento jurídico da convivência duradoura, pública e contínua entre duas pessoas, com o objetivo de constituir família.",
+            },
+            {
+                key: "guarda_filhos",
+                title: "Guarda de Filhos",
+                description: "Definição sobre quem terá a responsabilidade legal pelos cuidados e decisões relacionadas aos filhos menores.",
+            },
+            {
+                key: "pensao_alimenticia",
+                title: "Pensão Alimentícia",
+                description:
+                    "Valor pago por uma pessoa para prover as necessidades básicas de sustento de outra, como filhos, ex-cônjuge ou companheiro.",
+            },
+            {
+                key: "partilha_bens",
+                title: "Partilha de Bens",
+                description: "Divisão dos bens adquiridos durante o casamento ou união estável em caso de separação ou divórcio.",
+            },
+            {
+                key: "adoção",
+                title: "Adoção",
+                description:
+                    "Processo legal pelo qual uma pessoa ou um casal assume legalmente a responsabilidade de cuidar e educar uma criança como seu(s) filho(s).",
+            },
+            {
+                key: "investigacao_paternidade",
+                title: "Investigação de Paternidade",
+                description: "Processo judicial para determinar a filiação de uma pessoa a um pai biológico.",
+            },
+        ],
+    },
+*/
