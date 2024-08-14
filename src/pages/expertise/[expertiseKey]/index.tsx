@@ -77,8 +77,8 @@ export default function ExpertiseDetail({ expertise }: { expertise: Expertise })
         return <div>Loading...</div>;
     }
 
-    console.log("expertise client:", expertise);
-    const message = "Olá, eu gostaria de agendar uma consulta relacionada a " + expertise.title + ".";
+    // console.log("expertise client:", expertise);
+    const message = "Olá, eu gostaria de agendar uma consulta relacionada à ";
 
     function toUrlValidString(str: string) {
         return encodeURIComponent(str);
@@ -102,8 +102,20 @@ export default function ExpertiseDetail({ expertise }: { expertise: Expertise })
                         <div className="Expertise_SubItems_List">
                             {expertise.subitems.map((subitem, index) => (
                                 <div className="Expertise_SubItem" key={index}>
-                                    <h3 className="SubItem_Title">{subitem.title}</h3>
-                                    <p className="SubItem_Description">{subitem.description}</p>
+                                    <div className="Expertise_SubItem_Header">
+                                        <h3 className="SubItem_Title">{subitem.title}</h3>
+                                        <p className="SubItem_Description">{subitem.description}</p>
+                                    </div>
+
+                                    <Link
+                                        className="Expertise_SubItem_Schedule_Btn"
+                                        href={`https://wa.me/+554198077135?text=${toUrlValidString(message + subitem.title)}`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        {t.common.customScheduleText}
+                                        <span className="material-icons">event_available</span>
+                                    </Link>
                                 </div>
                             ))}
                         </div>
@@ -113,16 +125,6 @@ export default function ExpertiseDetail({ expertise }: { expertise: Expertise })
                         <Link className="Schedule_Btn" href={"/#areas-de-atuacao"}>
                             <span className="material-icons">keyboard_return</span>
                             {t.common.returnToAreasOfExpertise}
-                        </Link>
-
-                        <Link
-                            className="Schedule_Btn"
-                            href={`https://wa.me/1234567890?text=${toUrlValidString(message)}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            {t.common.customScheduleText}
-                            <span className="material-icons">event_available</span>
                         </Link>
                     </div>
                 </main>

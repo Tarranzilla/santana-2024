@@ -148,7 +148,7 @@ export default function Home() {
                                     <p>(41) 3077-0340</p>
                                 </div>
 
-                                <div className="Working_Hours Contact_Layout_Item" key={"contato_email"}>
+                                <div className="Emails Contact_Layout_Item" key={"contato_email"}>
                                     <h3 className="Contact_Layout_Item_Title">Email</h3>
                                     <p>elza_ld@hotmail.com</p>
                                 </div>

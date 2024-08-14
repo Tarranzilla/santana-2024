@@ -27,7 +27,7 @@ export default function ImageSlider({ content }: ImageSliderProps) {
         setIsPlaying(!isPlaying);
     };
 
-    const message = "Olá gostaria de fazer a cotação de seus serviços.";
+    const message = "Olá gostaria de agendar uma consulta relacionada à " + content[activeIndex].topic + ".";
 
     function toUrlValidString(str: string) {
         return encodeURIComponent(str);
@@ -66,7 +66,12 @@ export default function ImageSlider({ content }: ImageSliderProps) {
                                 <h1 className="Banner_Title">{contentItem.title}</h1>
                                 <h2 className="Banner_SubTitle">{contentItem.subtitle}</h2>
 
-                                <Link href={`https://wa.me/1234567890?text=${toUrlValidString(message)}`} className="Banner_Action_Btn">
+                                <Link
+                                    href={`https://wa.me/+554198077135?text=${toUrlValidString(message)}`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="Banner_Action_Btn"
+                                >
                                     {t.landingPage.sections.home.scheduleBtn.title}
                                     <span className="material-icons">event_available</span>
                                 </Link>

@@ -3,6 +3,7 @@ import Banner from "@/types/Banner";
 const bannerList_EN: Banner[] = [
     {
         key: "banner1",
+        topic: "PASEP Review",
         title: "Maximize Your Retirement",
         subtitle: "Discover if you are eligible for the Whole Life Review and increase your retirement now!",
         imgSrc: "/banner_imgs/banner_aposentadoria_001.png",
@@ -13,6 +14,7 @@ const bannerList_EN: Banner[] = [
     },
     {
         key: "banner2",
+        topic: "INSS Benefits",
         title: "Specialized Assistance in INSS Benefits",
         subtitle: "Get professional guidance to ensure your social security rights. Count on our experience!",
         imgSrc: "/banner_imgs/banner_inss_001.png",
@@ -23,6 +25,7 @@ const bannerList_EN: Banner[] = [
     },
     {
         key: "banner3",
+        topic: "Probate",
         title: "Facilitate the Probate Process",
         subtitle: "Specialized legal support to streamline and simplify the probate process.",
         imgSrc: "/banner_imgs/banner_inventario_001.png",
@@ -33,6 +36,7 @@ const bannerList_EN: Banner[] = [
     },
     {
         key: "banner4",
+        topic: "Labor Law",
         title: "Protect Your Rights at Work",
         subtitle: "Rely on our expertise in Labor Law to defend your interests and ensure your labor rights!",
         imgSrc: "/banner_imgs/banner_trabalhista_001.png",

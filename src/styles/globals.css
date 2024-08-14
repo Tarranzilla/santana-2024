@@ -13,6 +13,7 @@
     --danger-color: #dc3545;
 
     --text-color: #ffffff;
+    --faded-text-color: #ffffff77;
     --bg-color: #3b1714;
 
     --bg-color-faded-50: #3b1714c2;
@@ -39,6 +40,8 @@
     --Navbar-height: 4rem;
     --Footer-height: 4rem;
     --Content-height: calc(100vh - var(--Navbar-height) - var(--Footer-height));
+
+    font-size: var(--font-size);
 }
 
 * {
@@ -435,6 +438,7 @@ body.body-no-scroll {
     letter-spacing: 0.25rem;
     border-bottom: 1px solid var(--text-color);
     padding: var(--medium-gap) 0;
+    text-align: center;
 }
 
 /* INICIO */
@@ -505,6 +509,8 @@ body.body-no-scroll {
     display: flex;
     align-items: center;
     gap: var(--normal-gap);
+
+    box-shadow: 0 0 5px 0 var(--bg-color);
 }
 
 .Banner_Action_Btn:focus-within,
@@ -533,8 +539,8 @@ body.body-no-scroll {
     transition: font-size 0.3s ease, color 0.3s ease;
 }
 
-.ImageSlider_Arrow:focus-within,
-.ImageSlider_Arrow:hover {
+.ImageSlider_Btn:focus-within > .ImageSlider_Arrow,
+.ImageSlider_Btn:hover > .ImageSlider_Arrow {
     font-size: 2rem;
     color: white;
 }
@@ -725,7 +731,7 @@ body.body-no-scroll {
     border-radius: var(--border-radius);
     padding: var(--medium-gap);
     background-color: var(--text-color);
-    gap: var(--large-gap);
+    gap: var(--extra-large-gap);
 
     color: var(--bg-color);
 
@@ -756,17 +762,17 @@ body.body-no-scroll {
 .Special_Service_Title {
     font-family: "trajan-pro-3", serif;
     letter-spacing: 0.1rem;
-    font-size: clamp(1.2rem, 2vw, 1.6rem);
+    font-size: clamp(1.2rem, 2vw, 1.4rem);
     border-bottom: 1px solid var(--bg-color);
     padding-bottom: var(--small-gap);
-    margin-bottom: var(--small-gap);
+    margin-bottom: 0.75rem;
     text-align: center;
 }
 
 .Special_Service_Subtitle {
-    font-size: 0.9rem;
+    font-size: 1rem;
     letter-spacing: 0.1rem;
-    font-weight: 300;
+    font-weight: 600;
     text-transform: uppercase;
     text-align: center;
 }
@@ -784,7 +790,6 @@ body.body-no-scroll {
     flex-direction: column;
     gap: var(--small-gap);
     padding: var(--medium-gap) var(--large-gap);
-    border: 1px solid var(--text-color);
     border-radius: var(--border-radius);
 
     letter-spacing: 0.075rem;
@@ -804,14 +809,15 @@ body.body-no-scroll {
 }
 
 .PASEP_Btn {
-    background-color: var(--bg-color);
-    color: var(--text-color);
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    box-shadow: 0 0 5px 0 var(--bg-color);
 }
 
 .PASEP_Btn:hover,
 .PASEP_Btn:focus-within {
-    background-color: var(--bg-color);
-    color: var(--text-color);
+    background-color: var(--text-color);
+    color: var(--bg-color);
 }
 
 .Card_Grid {
@@ -899,8 +905,40 @@ body.body-no-scroll {
 
 .Expertise_SubItem {
     padding: var(--large-gap);
+    gap: var(--medium-gap);
     border-bottom: 1px solid var(--text-color);
     transition: background-color 0.15s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Expertise_SubItem_Schedule_Btn {
+    padding: var(--medium-gap) var(--large-gap);
+    background-color: var(--faded-text-color);
+    color: var(--bg-color-faded-50);
+    border-radius: var(--border-radius);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+    transition: background-color 0.3s ease, font-size 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--normal-gap);
+    min-width: max-content;
+    height: 4rem;
+
+    text-decoration: none;
+    box-shadow: 0 0 5px 0 var(--bg-color);
+}
+
+.Expertise_SubItem_Schedule_Btn:focus-within,
+.Expertise_SubItem_Schedule_Btn:hover {
+    background-color: white;
+    color: var(--bg-color);
+    font-size: 1.1rem;
 }
 
 .Expertise_SubItems_List > .Expertise_SubItem:last-child {
@@ -915,6 +953,10 @@ body.body-no-scroll {
 
 .SubItem_Title {
     margin-bottom: var(--small-gap);
+}
+
+.SubItem_Description {
+    max-width: 60ch;
 }
 
 .Schedule_Btn {
@@ -963,6 +1005,18 @@ body.body-no-scroll {
     flex-wrap: wrap;
 }
 
+.Contact_Layout_Container > * {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Working_Hours {
+    flex: 2;
+    min-width: 20rem;
+}
+
 .Contact_Layout_Item_Title {
     margin-bottom: var(--small-gap);
 }
@@ -970,6 +1024,7 @@ body.body-no-scroll {
 .Adress_Item {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-bottom: var(--normal-gap);
 }
 
@@ -981,6 +1036,8 @@ body.body-no-scroll {
     padding-bottom: var(--medium-gap);
     margin-bottom: var(--medium-gap);
     border-bottom: 1px solid var(--text-color);
+    text-align: center;
+    width: 100%;
 }
 
 .Map {
@@ -1121,6 +1178,11 @@ body.body-no-scroll {
     .Special_Service_List_Item {
         font-size: 1rem;
         line-height: 1.4rem;
+    }
+
+    .Expertise_SubItem {
+        flex-direction: column;
+        gap: var(--medium-gap);
     }
 }
 

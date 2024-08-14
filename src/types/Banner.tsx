@@ -1,5 +1,6 @@
 type Banner = {
     key: string;
+    topic: string;
     title: string;
     subtitle: string;
     actionBtn?: string;

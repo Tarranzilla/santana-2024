@@ -14,6 +14,8 @@ export default function Footer() {
     }
 
     const changeLanguage = () => {
+        return;
+
         const currentLocale = router.locale;
         const newLocale = currentLocale === "en" ? "pt-BR" : "en";
         const currentPath = router.asPath;
