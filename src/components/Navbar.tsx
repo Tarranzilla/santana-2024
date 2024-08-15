@@ -28,9 +28,9 @@ export default function Navbar() {
         <>
             <div className="Navbar">
                 <div className="Navbar_Content">
-                    <div className="Logo_Container">
+                    <Link href={"/#"} className="Logo_Container">
                         <Image className="Logo" src="/brand_imgs/new_era/logo_new_era.png" alt="Logo" width={100} height={100} />
-                    </div>
+                    </Link>
 
                     <div className="LogoType_Container">
                         <h1 className="Logo_Type">Sant&apos;Ana</h1>
