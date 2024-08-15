@@ -45,7 +45,7 @@ export default function Footer() {
 
                 <div className="Footer_Actions">
                     <div className="Footer_Btn Quote_Btn" title={t.footer.scheduleBtn.label}>
-                        <Link href={`https://wa.me/1234567890?text=${toUrlValidString(message)}`} target="_blank" rel="noopener noreferrer">
+                        <Link href={`https://wa.me/+554198077135?text=${toUrlValidString(message)}`} target="_blank" rel="noopener noreferrer">
                             <span className="Footer_Icon material-icons">event_available</span>
                         </Link>
                     </div>
