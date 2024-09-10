@@ -22,7 +22,13 @@ export default function Menu() {
                 </button>
             </div>
 
-            <div className="Footer_Btn Lang_Btn" title={t.footer.langBtn?.label} onClick={changeLanguage}>
+            <div
+                className="Footer_Btn Lang_Btn"
+                title={t.footer.langBtn?.label}
+                onClick={() => {
+                    //changeLanguage();
+                }}
+            >
                 <span className="Footer_Icon material-icons">language</span>
             </div>
 

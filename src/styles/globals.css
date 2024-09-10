@@ -791,6 +791,7 @@ body.body-no-scroll {
     inset: 0;
     overflow: hidden;
     border-radius: var(--border-radius);
+    opacity: 0.5;
 }
 
 .Special_Service_BG_Image {

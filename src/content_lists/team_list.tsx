@@ -7,7 +7,7 @@ const teamList: TeamMember[] = [
         role: "Advogada e Gestora",
         OAB_number: "OAB/PR | 16862",
         OAB_Link: "https://www.oabpr.org.br/servicos-consulta-de-advogados/consulta-de-advogado/?oabn=16862&tpinsc=A",
-        cellphone: "(41) 984 159 010",
+        cellphone: "(41) 99807-7135",
         telephone: "(41) 3077-0340",
         email: "elza_ld@hotmail.com",
 
